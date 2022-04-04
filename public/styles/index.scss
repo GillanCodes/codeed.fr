@@ -1,0 +1,50 @@
+@import './settings';
+
+@import "./app.scss";
+
+* {
+    margin: 0;
+    font-family: pixel;
+    color: $text;
+}
+
+body {
+    background-color: $dark-bg;
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: $light-1;
+}
+
+
+.status {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.indicator {
+    height: 10px;
+    width: 10px;
+    background-color: #efefef;
+    border-radius: 10px;
+
+    margin-right: 5px;
+}
+
+.indicator.is-green {
+    background-color: $green;
+}
+
+.indicator.is-red {
+    background-color: $red;
+}
+
+.indicator.is-orange {
+    background-color: $orange;
+}

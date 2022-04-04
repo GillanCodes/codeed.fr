@@ -1,0 +1,197 @@
+@font-face {
+  font-family: pixel;
+  src: url("../font/Pixellari.ttf");
+}
+@media screen and (min-width: 1250px) {
+  .app-container {
+    min-height: 100vh;
+    width: 100vw;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .app-container .app-spacer {
+    height: 2px;
+    min-height: 2px;
+    width: 80%;
+    background-color: #ececec;
+    margin: 2em 0em;
+  }
+  .app-container .app-head {
+    text-align: center;
+    margin-top: 2em;
+  }
+  .app-container .app-head .main-title {
+    font-size: 90px;
+    background: -webkit-linear-gradient(0deg, #3F31EC, #877EF1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+  }
+  .app-container .app-head .main-title img {
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+  .app-container .app-head .subtitle {
+    font-size: 30px;
+  }
+  .app-container .app-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .app-container .app-content .subtitle {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    transition-duration: 0.1s;
+  }
+  .app-container .app-content .subtitle:hover {
+    color: #877EF1;
+    transition-duration: 0.1s;
+  }
+  .app-container .app-content .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2em;
+  }
+  .app-container .app-content .projects .project {
+    width: 350px;
+    margin: 0px 25px;
+  }
+  .app-container .app-content .projects .project * {
+    margin-top: 5px;
+  }
+  .app-container .app-content .projects .project .project-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .app-container .app-content .projects .project .project-head h3 {
+    margin-left: 10px;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  .app-container .app-content .projects .project .project-head .icon {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+  }
+  .app-container .app-content .projects .project .project-head .icon.rounded {
+    border-radius: 10px;
+  }
+  .app-container .app-content .projects .project .project-body {
+    font-size: 18px;
+  }
+  .app-container .app-content .projects .project .project-body p {
+    height: 135px;
+    overflow: hidden;
+  }
+  .app-container .app-content .projects .project .project-tags {
+    display: flex;
+    flex-direction: row;
+  }
+  .app-container .app-content .projects .project .project-tags p {
+    padding: 4px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  .app-container .app-content .projects .project .project-tags .orange {
+    background-color: rgb(255, 162, 81);
+  }
+  .app-container .app-content .projects .project .project-tags .yellow {
+    background-color: rgb(247, 176, 8);
+  }
+  .app-container .app-content .projects .project .project-tags .red {
+    background-color: rgb(255, 110, 110);
+  }
+  .app-container .app-content .projects .project .project-tags .green {
+    background-color: rgb(0, 166, 30);
+  }
+  .app-container .app-content .projects .project .project-tags .light {
+    background-color: #877EF1;
+  }
+  .app-container .app-content .projects .project .project-tags .light-bis {
+    background-color: #6156EF;
+  }
+  .app-container .app-content .projects .project .project-tags .dark {
+    background-color: #3F31EC;
+  }
+  .app-container .app-content .projects .project .project-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .app-container .app-content.about .subtitle {
+    margin: 1em 0em;
+  }
+  .app-container .app-content.about .about-content {
+    width: 70%;
+    margin: auto;
+  }
+  .app-container .app-content.about .about-content p {
+    font-size: 18px;
+  }
+
+  footer {
+    margin-top: 4em;
+    background-image: linear-gradient(90deg, #877EF1, #3F31EC, #877EF1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+* {
+  margin: 0;
+  font-family: pixel;
+  color: #fdfdfd;
+}
+
+body {
+  background-color: #464648;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #877EF1;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.indicator {
+  height: 10px;
+  width: 10px;
+  background-color: #efefef;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.indicator.is-green {
+  background-color: rgb(100, 255, 129);
+}
+
+.indicator.is-red {
+  background-color: rgb(255, 110, 110);
+}
+
+.indicator.is-orange {
+  background-color: rgb(255, 162, 81);
+}
+
+/*# sourceMappingURL=index.css.map */
