@@ -233,6 +233,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
   }
   .app-container .app-spacer {
     height: 2px;
@@ -247,11 +248,10 @@
   }
   .app-container .app-head .main-title {
     font-size: 50px;
-    background: -webkit-linear-gradient(0deg, #3F31EC, #877EF1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #6156EF;
     display: flex;
     justify-content: center;
+    color: #6156EF;
   }
   .app-container .app-head .main-title img {
     height: 50px;
@@ -352,6 +352,9 @@
   }
   .app-container .app-content .skill {
     margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .app-container .app-content .skill h3 span {
     font-style: italic;
@@ -360,7 +363,7 @@
   }
   .app-container .app-content .skill .progress-out {
     height: 20px;
-    width: 350px;
+    width: 85%;
     background-color: #877EF1;
     border-radius: 10px;
   }
