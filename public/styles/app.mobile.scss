@@ -1,0 +1,282 @@
+.app-container {
+
+    min-height: 100vh;
+
+    margin-bottom: 2em;
+
+    display: flex;
+    flex-direction: column;
+
+   align-items: center;
+
+    .app-spacer {
+        height: 2px;
+        min-height: 2px;
+        width: 80%;
+        background-color: $spacer;
+        margin: 2em 0em;
+    }
+
+    .app-head {
+        text-align: center;
+        margin-top: 2em;
+
+        .main-title {
+            font-size: 50px;
+            background: -webkit-linear-gradient(0deg, $main, $light-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            display: flex;
+            justify-content: center;
+
+            img {
+                height: 50px;
+                width: auto;
+                object-fit: cover;
+                border-radius: 50px;
+            }
+        }
+
+        .subtitle {
+            font-size: 30px;
+        }
+    }
+
+
+    .app-content {
+
+        display: flex;
+        flex-direction: column;
+
+        .subtitle {
+            text-align: center;
+            text-decoration: underline;
+            font-size: 32px;
+            transition-duration: 0.1s;
+        }
+
+        .subtitle:hover {
+            color: $light-1;
+            transition-duration: 0.1s;
+        }
+
+        .projects {
+
+            display: flex;
+            flex-direction: row;
+
+            flex-wrap: wrap;
+
+            margin-top: 2em;
+
+            .project {
+                width: 350px;
+                margin: 20px 25px;
+    
+                * {
+                    margin-top: 5px;
+                }
+
+                .project-head {
+
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    
+                    h3 {
+                        margin-left: 10px;
+                        font-size: 24px;
+                        text-decoration: underline;
+                    }
+
+                    .icon {
+                        height: 32px;
+                        width: 32px;
+                        object-fit: cover;
+                    }
+
+                    .icon.rounded {
+                        border-radius: 10px;
+                    }
+
+                    
+                }
+    
+                .project-body{
+                    font-size: 18px;
+
+                    p {
+                        height: 135px;
+                        overflow: hidden;
+                    }
+                }
+
+                .project-tags {
+                    display: flex;
+                    flex-direction: row;
+
+                    p {
+                        padding: 4px;
+                        border-radius: 10px;
+                        margin: 5px;
+                    }
+                    
+                    .orange{background-color: $orange}
+                    .yellow{background-color: $yellow}
+                    .red{background-color: $red}
+                    .green{background-color: $green-dark}
+
+                    .light{background-color: $light-1}
+                    .light-bis{background-color: $light-2}
+                    .dark{background-color: $main}
+
+                }
+    
+                .project-footer {
+    
+                    display: flex;
+                    flex-direction: row;
+                    align-items: baseline;
+
+                    justify-content: space-between;
+    
+                }
+    
+            }
+        }
+
+
+        .skill {
+
+            margin-top: 2em;
+
+            h3 {
+                span {
+                    font-style: italic;
+                    font-size: 15px;
+                    font-weight: 100;
+                }
+            }
+
+            .progress-out {
+                height: 20px;
+                width: 350px;
+                background-color: $light-1;
+                border-radius: 10px;
+
+                .progress-in {
+                    display: block;
+                    height: 100%;
+                    border-radius: 10px;
+                    background-color: $main;
+                }
+
+                .progress-in.html {
+                    background-image: linear-gradient(90deg, rgb(255, 108, 94),rgb(210, 29, 59));
+                }
+
+                .progress-in.js {
+                    background-color: $yellow;
+                }
+
+                .progress-in.nodejs {
+                    background-color: $green;
+                }
+
+                .progress-in.mongodb {
+                    background-color: $green;
+                }
+
+                .progress-in.mysql {
+                    background-color: $orange;
+                }
+
+                .progress-in.unix {
+                    background-color: #000;
+                }
+
+                .progress-in.php {
+                    background-color: #82aed5;
+                }
+
+                .progress-in.java {
+                    background-color: #e20001;
+                }
+
+                .progress-in.pixels {
+                    display: flex;
+                    flex-direction: row;
+
+                    .pixel {
+                        margin-right: 4px;
+                        width: calc(5% - 4px);
+                        
+                    }
+
+                    .pixel.inner {
+                        border-radius: 10px 0px 0px 10px;
+                        background-color: #ffff00;
+                    }
+
+                    .pixel.one { background-color: #f8ea47 }
+                    .pixel.two { background-color: #f0d465 }
+                    .pixel.three { background-color: #f0d465 }
+                    .pixel.four { background-color:  #e7bf7c }
+                    .pixel.five { background-color: #ddaa8f }
+                    .pixel.six { background-color: #d095a1 }
+
+
+
+                    .pixel.outer {
+                        border-radius: 0px 10px 10px 0px;
+                        background-color:  #c280b2;
+                    }
+                }
+
+            }
+
+
+        }
+    
+        
+    }
+
+    .app-content.about {
+
+
+        .subtitle {
+            margin: 1em 0em;
+        }
+
+        .about-content {
+            width: 90%;
+            margin: auto;
+
+            p {
+                font-size: 18px;
+                line-height: 1.5em;
+            }
+        }
+    }
+
+    
+
+}
+
+footer {
+
+    margin-top: 4em;
+
+    background-image: linear-gradient(90deg, $light-1, $main, $light-1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 150px;
+    text-align: center;
+
+    font-size: 20px;
+
+}
