@@ -5,7 +5,6 @@
 @media screen and (min-width: 1250px) {
   .app-container {
     min-height: 100vh;
-    width: 100vw;
     margin-bottom: 2em;
     display: flex;
     flex-direction: column;
@@ -127,11 +126,89 @@
     align-items: baseline;
     justify-content: space-between;
   }
+  .app-container .app-content .skill {
+    margin-top: 2em;
+  }
+  .app-container .app-content .skill h3 span {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .app-container .app-content .skill .progress-out {
+    height: 20px;
+    width: 500px;
+    background-color: #877EF1;
+    border-radius: 10px;
+  }
+  .app-container .app-content .skill .progress-out .progress-in {
+    display: block;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #3F31EC;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.html {
+    background-image: linear-gradient(90deg, rgb(255, 108, 94), rgb(210, 29, 59));
+  }
+  .app-container .app-content .skill .progress-out .progress-in.js {
+    background-color: rgb(247, 176, 8);
+  }
+  .app-container .app-content .skill .progress-out .progress-in.nodejs {
+    background-color: rgb(100, 255, 129);
+  }
+  .app-container .app-content .skill .progress-out .progress-in.mongodb {
+    background-color: rgb(100, 255, 129);
+  }
+  .app-container .app-content .skill .progress-out .progress-in.mysql {
+    background-color: rgb(255, 162, 81);
+  }
+  .app-container .app-content .skill .progress-out .progress-in.unix {
+    background-color: #000;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.php {
+    background-color: #82aed5;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.java {
+    background-color: #e20001;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.pixels {
+    display: flex;
+    flex-direction: row;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.pixels .pixel {
+    margin-right: 4px;
+    width: calc(5% - 4px);
+  }
+  .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.inner {
+    border-radius: 10px 0px 0px 10px;
+    background-color: #ffff00;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.one {
+    background-color: #f8ea47;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.two {
+    background-color: #f0d465;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.three {
+    background-color: #f0d465;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.four {
+    background-color: #e7bf7c;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.five {
+    background-color: #ddaa8f;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.six {
+    background-color: #d095a1;
+  }
+  .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.outer {
+    border-radius: 0px 10px 10px 0px;
+    background-color: #c280b2;
+  }
   .app-container .app-content.about .subtitle {
     margin: 1em 0em;
   }
   .app-container .app-content.about .about-content {
-    width: 70%;
+    width: 100%;
     margin: auto;
   }
   .app-container .app-content.about .about-content p {
