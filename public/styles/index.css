@@ -173,6 +173,7 @@
   .app-container .app-content .skill .progress-out .progress-in.pixels {
     display: flex;
     flex-direction: row;
+    background-color: transparent;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel {
     margin-right: 4px;
@@ -180,29 +181,29 @@
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.inner {
     border-radius: 10px 0px 0px 10px;
-    background-color: #ffff00;
+    background-color: #ff4646;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.one {
-    background-color: #f8ea47;
+    background-color: #e84358;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.two {
-    background-color: #f0d465;
+    background-color: #d1406a;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.three {
-    background-color: #f0d465;
+    background-color: #ba3d7c;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.four {
-    background-color: #e7bf7c;
+    background-color: #a43a8f;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.five {
-    background-color: #ddaa8f;
+    background-color: #8d37a1;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.six {
-    background-color: #d095a1;
+    background-color: #7634b3;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.outer {
     border-radius: 0px 10px 10px 0px;
-    background-color: #c280b2;
+    background-color: #5f31c5;
   }
   .app-container .app-content.about .subtitle {
     margin: 1em 0em;
@@ -407,29 +408,29 @@
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.inner {
     border-radius: 10px 0px 0px 10px;
-    background-color: #ffff00;
+    background-color: #ff4646;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.one {
-    background-color: #f8ea47;
+    background-color: #e84358;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.two {
-    background-color: #f0d465;
+    background-color: #d1406a;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.three {
-    background-color: #f0d465;
+    background-color: #ba3d7c;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.four {
-    background-color: #e7bf7c;
+    background-color: #a43a8f;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.five {
-    background-color: #ddaa8f;
+    background-color: #8d37a1;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.six {
-    background-color: #d095a1;
+    background-color: #7634b3;
   }
   .app-container .app-content .skill .progress-out .progress-in.pixels .pixel.outer {
     border-radius: 0px 10px 10px 0px;
-    background-color: #c280b2;
+    background-color: #5f31c5;
   }
   .app-container .app-content.about .subtitle {
     margin: 1em 0em;

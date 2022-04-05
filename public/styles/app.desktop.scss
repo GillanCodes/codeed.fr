@@ -207,6 +207,7 @@
                 .progress-in.pixels {
                     display: flex;
                     flex-direction: row;
+                    background-color: transparent;
 
                     .pixel {
                         margin-right: 4px;
@@ -216,21 +217,21 @@
 
                     .pixel.inner {
                         border-radius: 10px 0px 0px 10px;
-                        background-color: #ffff00;
+                        background-color: #ff4646;
                     }
 
-                    .pixel.one { background-color: #f8ea47 }
-                    .pixel.two { background-color: #f0d465 }
-                    .pixel.three { background-color: #f0d465 }
-                    .pixel.four { background-color:  #e7bf7c }
-                    .pixel.five { background-color: #ddaa8f }
-                    .pixel.six { background-color: #d095a1 }
+                    .pixel.one { background-color: #e84358 }
+                    .pixel.two { background-color: #d1406a }
+                    .pixel.three { background-color: #ba3d7c }
+                    .pixel.four { background-color:  #a43a8f }
+                    .pixel.five { background-color: #8d37a1 }
+                    .pixel.six { background-color: #7634b3 }
 
 
 
                     .pixel.outer {
                         border-radius: 0px 10px 10px 0px;
-                        background-color:  #c280b2;
+                        background-color:  #5f31c5;
                     }
                 }
 
