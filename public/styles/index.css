@@ -38,6 +38,16 @@
   .app-container .app-head .subtitle {
     font-size: 30px;
   }
+  .app-container .app-head .contact {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  .app-container .app-head .contact .mail {
+    color: rgb(255, 110, 110);
+  }
+  .app-container .app-head .contact .twitter {
+    color: #877EF1;
+  }
   .app-container .app-content {
     display: flex;
     flex-direction: column;
@@ -215,6 +225,25 @@
   .app-container .app-content.about .about-content p {
     font-size: 18px;
   }
+  .app-container .app-content.about .contact-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+  }
+  .app-container .app-content.about .contact-content .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .app-container .app-content.about .contact-content .contact .icon {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
 
   footer {
     margin-top: 4em;
@@ -262,6 +291,16 @@
   }
   .app-container .app-head .subtitle {
     font-size: 30px;
+  }
+  .app-container .app-head .contact {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  .app-container .app-head .contact .mail {
+    color: rgb(255, 110, 110);
+  }
+  .app-container .app-head .contact .twitter {
+    color: #877EF1;
   }
   .app-container .app-content {
     display: flex;
@@ -442,6 +481,18 @@
   .app-container .app-content.about .about-content p {
     font-size: 18px;
     line-height: 1.5em;
+  }
+  .app-container .app-content.about .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .app-container .app-content.about .contact .icon {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    margin-bottom: 10px;
   }
 
   footer {
