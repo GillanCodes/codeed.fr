@@ -220,39 +220,39 @@
                     background-color: #e20001;
                 }
 
-                .progress-in.pixels {
-                    display: flex;
-                    flex-direction: row;
-
-                    .pixel {
-                        margin-right: 4px;
-                        width: calc(5% - 4px);
-                        
-                    }
-
-                    .pixel.inner {
-                        border-radius: 10px 0px 0px 10px;
-                        background-color: #ff4646;
-                    }
-
-                    .pixel.one { background-color: #e84358 }
-                    .pixel.two { background-color: #d1406a }
-                    .pixel.three { background-color: #ba3d7c }
-                    .pixel.four { background-color:  #a43a8f }
-                    .pixel.five { background-color: #8d37a1 }
-                    .pixel.six { background-color: #7634b3 }
-
-
-
-                    .pixel.outer {
-                        border-radius: 0px 10px 10px 0px;
-                        background-color:  #5f31c5;
-                    }
-                }
-
             }
 
 
+        }
+
+        .tarrifs {
+            text-align: center;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+ 
+        .offres {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            margin: auto;
+            padding-top: 20px;
+            text-align: center;
+
+            .offer {
+
+                padding-top: 20px;
+
+                h3{
+                    font-size: 20px;
+                    text-decoration: underline;
+                }
+
+                .description {
+                    font-style: italic;
+                    padding: 10px;
+                }
+            }
         }
     
         
